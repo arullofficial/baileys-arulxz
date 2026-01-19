@@ -1,0 +1,50 @@
+{
+  "name": "baileys-bot",
+  "version": "2.0.0",
+  "description": "WhatsApp Bot Multi Device",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pm2": "pm2 start index.js --name baileys",
+    "fix": "node fix.js"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "multi-device",
+    "baileys"
+  ],
+  "author": "kiuur",
+  "license": "MIT",
+  "dependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@whiskeysockets/baileys": "^6.5.0",
+    "@hapi/boom": "^10.0.1",
+    "axios": "^1.6.2",
+    "chalk": "^4.1.2",
+    "crypto": "^1.0.1",
+    "file-type": "^18.5.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "gm": "^1.25.0",
+    "moment-timezone": "^0.5.43",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^2.6.12",
+    "os": "^0.1.2",
+    "pino": "^8.15.6",
+    "qrcode-terminal": "^0.12.0",
+    "sequelize": "^6.35.0",
+    "sqlite3": "^5.1.6",
+    "util": "^0.12.5",
+    "youtube-dl-exec": "^2.3.1"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arullofficial/baileys.git"
+  }
+}
